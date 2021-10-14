@@ -14,3 +14,7 @@ winForm2_SplashScreen_ProgressIndicator_RadialMenu
 winForm3_FluentDesign
 
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/56175888/137324416-91e0d7af-9681-464e-a123-d2476f03c695.PNG)
+
+winForm4_FluentDesign_DashBoard_Demo
+
+![Dashboard](https://user-images.githubusercontent.com/56175888/137333328-55e11789-14d0-4477-b3f0-fb1008cef2e4.png)
