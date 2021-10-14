@@ -18,3 +18,8 @@ winForm3_FluentDesign
 winForm4_FluentDesign_DashBoard_Demo
 
 ![Dashboard](https://user-images.githubusercontent.com/56175888/137333328-55e11789-14d0-4477-b3f0-fb1008cef2e4.png)
+
+winForm5_ReportExample
+
+![Report1](https://user-images.githubusercontent.com/56175888/137340041-99a792fe-7348-44e6-b277-8fe02b42583a.png)
+![Report2](https://user-images.githubusercontent.com/56175888/137340044-0c8803ef-f02a-4a15-8024-1eb42f19ae4c.png)
