@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StokTakipDBModelStoreContainer" CdmEntityContainer="StokTakipDBEntities">
+    <EntitySetMapping Name="Müsteriler">
+      <EntityTypeMapping TypeName="StokTakipDBModel.Müsteriler">
+        <MappingFragment StoreEntitySet="Müsteriler">
+          <ScalarProperty Name="müsteri_id" ColumnName="müsteri_id" />
+          <ScalarProperty Name="müsteri_adi" ColumnName="müsteri_adi" />
+          <ScalarProperty Name="müsteri_soyadi" ColumnName="müsteri_soyadi" />
+          <ScalarProperty Name="müsterinin_hesabi" ColumnName="müsterinin_hesabi" />
+          <ScalarProperty Name="firma_adi" ColumnName="firma_adi" />
+          <ScalarProperty Name="vergi_no" ColumnName="vergi_no" />
+          <ScalarProperty Name="Teslimat_adresi" ColumnName="Teslimat_adresi" />
+          <ScalarProperty Name="tel_no" ColumnName="tel_no" />
+          <ScalarProperty Name="müsteri_onay" ColumnName="müsteri_onay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

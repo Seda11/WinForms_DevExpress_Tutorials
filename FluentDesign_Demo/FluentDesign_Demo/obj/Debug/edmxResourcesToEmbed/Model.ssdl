@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StokTakipDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Müsteriler">
+    <Key>
+      <PropertyRef Name="müsteri_id" />
+    </Key>
+    <Property Name="müsteri_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="müsteri_adi" Type="varchar" MaxLength="15" />
+    <Property Name="müsteri_soyadi" Type="varchar" MaxLength="15" />
+    <Property Name="müsterinin_hesabi" Type="varchar" MaxLength="10" />
+    <Property Name="firma_adi" Type="varchar" MaxLength="20" />
+    <Property Name="vergi_no" Type="varchar" MaxLength="20" />
+    <Property Name="Teslimat_adresi" Type="varchar" MaxLength="50" />
+    <Property Name="tel_no" Type="varchar" MaxLength="20" />
+    <Property Name="müsteri_onay" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="StokTakipDBModelStoreContainer">
+    <EntitySet Name="Müsteriler" EntityType="Self.Müsteriler" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

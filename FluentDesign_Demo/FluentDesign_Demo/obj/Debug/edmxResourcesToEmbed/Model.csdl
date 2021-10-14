@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StokTakipDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Müsteriler">
+    <Key>
+      <PropertyRef Name="müsteri_id" />
+    </Key>
+    <Property Name="müsteri_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="müsteri_adi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="müsteri_soyadi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="müsterinin_hesabi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="firma_adi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="vergi_no" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Teslimat_adresi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="tel_no" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="müsteri_onay" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="StokTakipDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Müsteriler" EntityType="Self.Müsteriler" />
+  </EntityContainer>
+</Schema>
